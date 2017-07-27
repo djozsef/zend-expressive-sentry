@@ -1,0 +1,10 @@
+<?php
+/**
+ * @copyright (c) 2006-2017 Stickee Technology Limited
+ */
+
+return [
+    'sentry' => [
+        'dsn' => getenv('SENTRY_DSN') === false ? null : getenv('SENTRY_DSN'),
+    ],
+];
